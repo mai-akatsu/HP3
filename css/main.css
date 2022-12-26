@@ -1,0 +1,185 @@
+@charset "UTF-8";
+
+header{
+  position: fixed;
+  top: 0;
+  right: 1%;
+  z-index: 9999;
+}
+.header_all{
+  width: 100%;
+  background-color: transparent;
+}
+.nav_all{
+  margin-right: 20px;
+  background-color: transparent;
+}
+.nav_all ul{
+  display: flex;
+}
+.nav_all li{
+  padding: 30px 10px;
+}
+#top{
+  height: auto;
+  position: relative;
+}
+.top_ttl{
+  position: absolute;
+  z-index: 600;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.top_ttl h1{
+  font-size: 80px;
+  color: white;
+  font-family: 'Roboto Slab',
+    serif;
+  font-weight: normal;
+  display: block;
+}
+.top_ttl small{
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  display: block;
+}
+.slideShow{
+  position: relative;
+  z-index: 1;
+}
+.slide_img1{
+  background: url(../img/spring/sakura.jpg);
+}
+.slide_img2 {
+  background: url(../img/summer/summer.jpg);
+}
+.slide_img3 {
+  background: url(../img/autumn/fall.jpg);
+}
+.slide_img4 {
+  background: url(../img/winter/fuyu.jpg);
+}
+.slide{
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.slider{
+  animation: zoomup 5s forwards;
+}
+@keyframes zoomup{
+  from{
+    transform: scale(1);
+  }
+  to{
+    transform: scale(1.2);
+  }
+}
+.season_section{
+  width: 100%;
+  position: relative;
+}
+.season_wrap{
+  position: relative;
+}
+.season_bg{
+  background: url(../img/spring/sakura.jpg) no-repeat center;
+  width: 100%;
+  height: 100vh;
+}
+.season_content{
+  position: absolute;
+  z-index: 600;
+  background-color: rgba(255, 250, 250, 0.8);
+  float: left;
+  top: 25%;
+  width: 20%;
+  margin: 0 65px;
+  height: auto;
+
+}
+.season_content h1{
+  display: block;
+  font-size: 13px;
+  text-align: center;
+  font-family:'Roboto Slab',
+    serif;
+  padding-top: 40px;
+}
+.season_content span{
+  display: block;
+  font-size: 18px;
+  padding-top: 10px;
+}
+.season_txt{
+  padding: 55px 45px;
+}
+.season_txt h4{
+  font-weight: normal;
+  padding-bottom: 55px;
+}
+.spring{
+  position: relative;
+}
+.bg{
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+.bg img{
+  background-size: cover;
+  height: 100vh;
+}
+.center_content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.center_content h1{
+  font-size: 80px;
+  color: white;
+  font-family: 'Roboto Slab',
+  serif;
+  font-weight: normal;
+  display: block;
+}
+.button_content{
+  position: relative;
+  display: block;
+  text-align: center;
+}
+.button{
+  position: relative;
+  z-index: 0;
+  width: 200px;
+  overflow: hidden;
+  transition: 0.3s;
+  font-size: 15px;
+  background: transparent;
+  border-radius: 50px;
+  color: white;
+  border-color: white;
+  padding: 20px 40px;
+  margin-top: 50px;
+  transition: 2s;
+  cursor: pointer;
+}
+.button:hover{
+ background:url(../img/color.png);
+ background-size: contain;
+}
+
+.summer {
+  position: relative;
+}
+.autumn{
+  position: relative;
+}
+.winter{
+  position: relative;
+}

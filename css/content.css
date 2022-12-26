@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+.content{
+  width: 90%;
+  position: relative;
+  margin: 60px auto;
+}
+.content_img{
+  width: 60%;
+  margin: 0 auto;
+}
+.content_img img{
+  width: 100%;
+}
+.content_txt{
+  width: 60%;
+  margin: 0 auto;
+  font-family: 'Times New Roman', Times, serif;
+}
+.content_txt h3{
+  font-size: 25px;
+  position: relative;
+  margin-top: 20px;
+  font-weight: normal;
+}
+.content_txt small{
+  display: block;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.to_blog{
+  margin: 60px auto;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  font-family: 'Roboto Slab',
+      serif;
+}
+.to_blog p{
+  margin: 0 10px;
+}
+.to_blog h5::before{
+  content: "<";
+  margin-right: 30px;
+}
+.to_blog h5::after {
+  content: ">";
+  margin-left: 30px;
+}

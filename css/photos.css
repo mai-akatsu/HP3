@@ -1,0 +1,164 @@
+@charset "UTF-8";
+
+.spring_pht{
+  position: relative;
+  width: 100%;
+}
+.summer_pht{
+  position: relative;
+  width: 100%;
+}
+.pht_ttl{
+  position: relative;
+  font-size: 40px;
+  color: rgb(227, 167, 202);
+  margin: 40px 60px;
+}
+.pht_ttl h3{
+  font-weight: normal;
+  font-family: 'Roboto Slab',
+      serif;
+}
+.summer_pht .pht_ttl{
+  color: rgb(235, 170, 86);
+}
+.autumn_pht .pht_ttl{
+  color: rgba(129, 76, 11, 0.705);
+}
+.winter_pht .pht_ttl{
+  color: rgb(191, 207, 255);
+}
+.pht_item{
+  width: 20%;
+  height: 40vh;
+  margin: 0 15px;
+  background-color: #fff;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, .1);
+}
+.pht_slider{
+  width: 80%;
+  display: flex;
+  margin: auto;
+}
+.pht_img1{
+  background-image: url(../img/spring/Cherry\ blossoms.jpg);
+  width: 100%;
+  height: 75%;
+  background-size: cover;
+}
+.pht_img2 {
+  background-image: url(../img/spring/Cherry\ blossoms2.jpg);
+  width: 100%;
+  height: 75%;
+  background-size: cover;
+}
+.pht_img3 {
+  background-image: url(../img/spring/Cherry\ blossoms3.jpg);
+  width: 100%;
+  height: 75%;
+  background-size: cover;
+}
+.pht_img4 {
+  background-image: url(../img/spring/Cherry\ blossoms4.jpg);
+  width: 100%;
+  height: 75%;
+  background-size: cover;
+}
+.summer_pht .pht_img1{
+  background-image: url(../img/summer/summer1.jpg);
+}
+.summer_pht .pht_img2 {
+  background-image: url(../img/summer/summer2.jpg);
+}
+.summer_pht .pht_img3 {
+  background-image: url(../img/summer/summer3.jpg);
+}
+.summer_pht .pht_img4 {
+  background-image: url(../img/summer/summer4.jpg);
+}
+.autumn_pht .pht_img1 {
+  background-image: url(../img/autumn/autumn1.jpg);
+  background-size: cover;
+}
+.autumn_pht .pht_img2 {
+  background-image: url(../img/autumn/autumn2.jpg);
+}
+.autumn_pht .pht_img3 {
+  background-image: url(../img/autumn/autumn3.jpg);
+}
+.autumn_pht .pht_img4 {
+  background-image: url(../img/autumn/autumn4.jpg);
+}
+.winter_pht .pht_img1 {
+  background-image: url(../img/winter/winter1.jpg);
+}
+.winter_pht .pht_img2 {
+  background-image: url(../img/winter/winter2.jpg);
+}
+.winter_pht .pht_img3 {
+  background-image: url(../img/winter/winter3.jpg);
+}
+.winter_pht .pht_img4 {
+  background-image: url(../img/winter/winter4.jpg);
+}
+.pht_txt{
+  width: 100%;
+  height: 25%;
+  margin: 20px 10px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.pht_txt h5{
+  font-weight: bold;
+  margin-bottom: 10%;
+}
+.slick_prev,
+.slick_next {
+  width: 25px;
+  height: 25px;
+  border-top: 2px solid rgb(170, 170, 170);
+  border-right: 2px solid rgb(170, 170, 170);
+  cursor: pointer;
+  outline: none;
+  position: absolute;
+  top: 50%;
+  z-index: 5;
+}
+.slick_prev {
+  left: -5%;
+  transform: rotate(-135deg);
+}
+.slick_next {
+  right: -5%;
+  transform: rotate(45deg);
+}
+.slick-dots {
+  position: absolute;
+  z-index: 5;
+  top: 110%;
+  right: 50%;
+}
+
+.slick-dots li {
+  margin: 0 5px;
+  display: inline-block;
+}
+
+.slick-dots button {
+  color: transparent;
+  background: pink;
+  border-radius: 50%;
+  outline: none;
+  display: block;
+}
+.summer_pht .slick-dots button{
+  background: rgb(235, 170, 86);
+}
+.autumn_pht .slick-dots button{
+  background: rgba(129, 76, 11, 0.705);
+}
+.winter_pht .slick-dots button{
+  background: rgb(191, 207, 255);
+}
+.slick-dots .slick-active button {
+  background: #fff;
+}

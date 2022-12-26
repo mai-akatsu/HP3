@@ -1,0 +1,78 @@
+@charset "UTF-8";
+body{
+      background: linear-gradient(to bottom left, #d39f9f 20%, rgb(222, 142, 135) 40%, #FAF5F5) no-repeat center;
+}
+.contact{
+  width: 100%;
+  position: relative;
+  height: 77vh;
+  padding-top: 200px;
+}
+.contact_inner{
+  background-color: white;
+  width: 50%;
+  margin: 0 auto;
+}
+.contact_ttl{
+  padding: 30px 20px 50px 50px;
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Roboto Slab',
+      serif;
+}
+.form{
+  width: 70%;
+  margin: 50px auto;
+  font-family: Monotype Corsiva,
+    fantasy;
+}
+label{
+  display: inline-block;
+  width: 20%;
+  color: #ACB6E5; 
+    background: -webkit-linear-gradient(0deg, #4db1e7, #ce3535,#110101,#2fd165);
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+}
+input,
+textarea {
+  box-sizing: border-box;
+  border: solid rgb(141, 139, 139) 1px;
+  background-color: rgb(210, 210, 210);
+  width: 50%;
+  margin-bottom: 15px;
+  margin-left: 75px;
+}
+input {
+  padding: 8px;
+}
+textarea {
+  vertical-align: top;
+  height: 150px;
+}
+.buttom{
+  text-align: center;
+  padding-top: 0;
+  padding-bottom: 30px;
+}
+.btn{
+  width: 20%;
+  padding: 12px 19px;
+  background-color: #110101;
+  color: white;
+  font-family: Monotype Corsiva,
+      fantasy;
+  transition: 1s;
+  border: solid 0.5px #110101;
+}
+.btn:hover{
+  background-color: white;
+  color: #110101;
+}
+footer{
+  text-align: center;
+}
+footer p{
+  color: white;
+  padding-bottom: 100px;
+}
